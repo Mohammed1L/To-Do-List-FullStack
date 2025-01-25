@@ -1,6 +1,6 @@
 
 # To-Do List Website
-A full-stack web application for managing tasks, built with [your stack, e.g., React, Node.js, Express, MongoDB]. 
+A full-stack web application for managing tasks, built with  React, Node.js, Express, MongoDB. 
 **The main goal was to enhance my Front-end , Back-end skills.**
 
 
@@ -10,7 +10,7 @@ A full-stack web application for managing tasks, built with [your stack, e.g., R
 
 Add, edit, and delete tasks.
 Mark tasks as complete or incomplete.
-Filter tasks (e.g., by status: all, completed, pending).
+Filter tasks.
 Persistent data storage using [your database].
 
 
