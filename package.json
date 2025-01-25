@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon start server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
     "url": "https://github.com/Mohammed1L/To-Do-List-FullStack/issues"
   },
   "homepage": "https://github.com/Mohammed1L/To-Do-List-FullStack#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "react-scripts": "^5.0.1"
+  }
 }

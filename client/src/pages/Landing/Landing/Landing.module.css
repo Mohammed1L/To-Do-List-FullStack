@@ -1,0 +1,98 @@
+.landing {
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally if needed */
+}
+
+h1 {
+  font-size: 5em;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20%; /* Increased margin-top to move text further down */
+  margin-left: 200px;
+  z-index: 2;
+}
+
+.primarytext {
+  color: rgb(43, 19, 179);
+  margin-top: 20%; /* Adjusted to move the text down */
+  position: relative;
+  top: 100px; /* Fine-tuned for better spacing */
+  left: -640px;
+}
+
+.imgprimary {
+  z-index: -2;
+}
+
+img {
+  margin-left: 50%; /* Center horizontally if needed */
+  width: 70%;
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -300px; /* Adjust to position image lower */
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Wrapper for the buttons */
+.btnWrapper {
+  display: flex;
+  flex-direction: row; /* Stack the buttons horizontally */
+  gap: 20px;
+  align-items: center;
+  margin-top: 150px; /* Increased margin-top to push buttons lower */
+  z-index: 2;
+  margin-left: 200px;
+}
+
+.primarybttn {
+  padding: 12px 25px;
+  background-color: rgb(43, 19, 179);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.primarybttn:hover {
+  background-color: rgb(43, 19, 179);
+}
+
+.secondrybttn {
+  padding: 12px 25px;
+  background-color: transparent;
+  color: rgb(43, 19, 179);
+  border: 2px solid rgb(43, 19, 179);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.secondrybttn:hover {
+  background-color: rgb(43, 19, 179);
+  color: white;
+}
+
+.pinkcircle {
+  display: flex;
+  width: 20%;
+  margin-left: -900px;
+  margin-top: -800px; /* Adjusted to push it further down */
+  z-index: -4;
+}
+
+.pinkcircle2 {
+  display: flex;
+  margin-left: -900px;
+  width: 10%;
+  z-index: -5;
+}
